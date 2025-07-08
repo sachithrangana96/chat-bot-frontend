@@ -24,7 +24,7 @@ A responsive and modern chatbot UI built with **Next.js**, **React**, and **Mate
 ---
 ##  Getting Started
 
-# Clone the repository
+### Clone the repository
 
 ```bash
 git [clone https://github.com/your-username/ai-support-chat.git](https://github.com/sachithrangana96/chat-bot-frontend.git)
