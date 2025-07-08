@@ -3,11 +3,11 @@ export interface IMessage {
   text: string;
 }
 
-export interface ChatRequest {
+export interface IChatRequest {
   message: string;
 }
 
-export interface ChatResponse {
+export interface IChatResponse {
   bot: string;
   user: string
 }

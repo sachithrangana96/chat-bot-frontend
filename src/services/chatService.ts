@@ -1,6 +1,6 @@
-import { ChatRequest, ChatResponse } from "@/interfaces";
+import { IChatRequest, IChatResponse } from "@/interfaces";
 
-export const sendMessageToBot = async (payload: ChatRequest): Promise<ChatResponse> => {
+export const sendMessageToBot = async (payload: IChatRequest): Promise<IChatResponse> => {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
